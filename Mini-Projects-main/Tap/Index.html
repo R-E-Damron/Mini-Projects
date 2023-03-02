@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Index.css" rel="stylesheet" type="text/css">
+    <title>Tap Test</title>
+</head>
+<body>
+    <header>
+        <center><h1>Tap Test</h1></center>
+    </header>
+
+    <main>
+        <br/><br/><br/><br/><br/><br/>
+        <div id="StartHead"><center><h2>Press Start to Begin</h2></center></div><br/><br/><br/><br/>
+        <center>
+            <button type="button" onclick="tapE()" id="Tap" title="Click">
+                <h1>Start</h1>
+            </button>
+            <div id="Block2">
+                <h2>Highest Taps per Second</h2><br/>
+                <h1 id="HighT"></h1>
+                <h2>Statistics</h2>
+                <p id="bp1">
+                    Overall Taps: <span id="OTaps">0</span><br/><br/>
+                    Taps per Second: <span id="TapS">0</span><span id="Timer2"></span><br/><br/>
+                    Taps per Second Average: <span id="TapSA">0</span><br/><br/>
+                    Seconds Active: <span id="Timer1">0</span>s<br/><br/>
+                </p>
+            </div>
+        </center>
+        <br/><br/><br/><br/>
+        <div id="Stat-Block">
+            <center><h1>Information</h1>
+                <br/><br/><br/>
+                    <h2>About</h2>
+                    <p id="bp2">
+                        This Site was created for a test on javascript interaction in HTML, and CSS, with simple calculations, enjoy!
+                    </p>
+            </center>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+<script src="Index.js"></script>

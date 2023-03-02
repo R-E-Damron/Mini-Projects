@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+html, body{
+    background-color:#eeeeee;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x:hidden;
+}
+
+header{
+    background-color:#ffffff;
+    width:100vw;
+    position:fixed;
+    top:0px;
+    z-index:98;
+}
+
+#Tap{
+    height:400px;
+    width:400px;
+    border-radius:100%;
+    border:20px #00aadd solid;
+    filter:drop-shadow(0 0 10px #000000);
+    cursor:pointer;
+    transition:0.5s linear;
+    transform:scale(1.00);
+    font-size:40px;
+    font-weight:200;
+    cursor:pointer;
+}
+
+#StartHead{
+    transition:0.5s linear;
+}
+
+#Stat-Block{
+    width:100vw;
+    background-color:#ffffff;
+    padding:10px 0px;
+}
+
+.Block1{
+    width:30vw;
+    min-width:400px;
+    max-width:800px;
+    display:inline-block;
+}
+
+#Block2{
+    position:fixed;
+    right:-22px;
+    top:-22px;
+    width:20vw;
+    min-width:400px;
+    max-width:800px;
+    height:90vh;
+    float:right;
+    background-color:#ffffff;
+    border-radius:25px;
+    padding:20px 10px;
+    z-index:99;
+    border-left:2px #000000 solid;
+    border-bottom:2px #000000 solid;
+
+}
+
+#bp1{
+    text-align:left;
+}
+
+#bp2{
+    text-align:left;
+    width:24vw;
+    min-width:300px;
+}
+
+#Timer2{
+    background-color:#00aadd;
+    margin:0px 15px;
+    padding:5px;
+    border-radius:4px;
+    width:50px !important;
+    font-weight: 800;
+}
+
+#HighT{
+    font-weight: 800;
+    font-size:450%;
+}
+
+footer{
+    background-color:#111111;
+    width:100vw;
+    min-height:30px;
+}
+
+@media screen and (max-width: 1260px){
+    #Block2{
+        display:block !important; 
+        float:none;
+        position:relative;
+        left:0px;
+        right:0px;
+        top:40px;
+        border:0px;
+        width:100vw;
+        z-index:1;
+    }
+}
